@@ -25,14 +25,11 @@
                 </select>
             </div>
             <div> <!-- I radio BUTTON sono delle scelte che escludono delle altre, come riconosce HTML che più radio appartengono alla stessa categoria? Grazie al "NAME"-->
-                <input type="radio" name="ETA" value="MIN"> <!--In questo inserisco lo stesso NAME in entrambi i tipi di input radio per garantire il funzionamento di selezione esclusiva di 1 sola scelta-->
-                <label for="MIN">0-18</label> <!-- per i type radio è necessario inserire il tag label per far apparire accanto al pallino un'etichetta-->
-                <input type="radio" name="ETA" value="NOTMIN">
-                <label for="NOTMIN">18+</label>
+                <input type="radio" name="ETA"> 0-18
+                <input type="radio" name="ETA"> 18+
             </div>
             <div>
-                <input type="checkbox" value="Condizioni">
-                <label for="Condizioni">Accetta i termini e condizioni</label> <!-- Per i type checkbox è necessaria la presenza di un tag label per associare un'etichetta al quadrato di check-->
+                <input type="checkbox" value="Condizioni"> Accetta i termini e condizioni
             </div>
             <div>
                 <input type="submit" value="Invia">
