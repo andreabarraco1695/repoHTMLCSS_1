@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TAG DI INPUT</title>
+    </head>
+    <body>
+        <!-- ------------------------------- -->
+        <!-- TAG SELECT-->
+        <p>Fai una scelta</p>
+        <select name="Scelta">
+            <option value = "opt0">Scegli un'opzione</option>
+            <option value = "opt1">Opzione 1</option>
+            <option value = "opt2">Opzione 2</option>
+        </select>
+        <hr>
+        <!-- ------------------------------- -->
+        <!-- TAG DI INPUT TEXTAREA-->
+        <p>Compila la seguente TEXT AREA</p>
+        <p><textarea name = "textarea1" rows = "8" cols="80"></textarea></p>
+        <!-- ------------------------------- -->
+        <!-- TAG BUTTON-->
+        <button>Click Me!</button>
+        <!-- ------------------------------- -->
+        <hr>
+        <p> INPUT AREA CON VALUE PRECOMPILATO</p>
+        <input type="text" name="text_nome1" value="Inserisci Nome"> <!-- L'attributo Value scrive un vero e proprio valore, come se l'utente avesse già inserito qualcosa (default)-->
+        <input type="text" name="text_cognome1" value="Inserisci Cognome">
+        <hr>
+        <p> INPUT AREA CON PLACEHOLDER</p>
+        <input type="text" name="text_nome2" placeholder="Inserisci Nome"> <!-- L'attributo placedholder inserisce una sorta di "suggerimento", non compila alcun valore-->
+        <input type="text" name="text_cognome2" placeholder="Inserisci Cognome">
+        <input type="email" name="text_mail" placeholder="Inserisci la tua email">
+        <input type="submit" value="Invia">
+    </body>
+</html>
