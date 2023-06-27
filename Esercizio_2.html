@@ -7,13 +7,14 @@
         <h3>Registrazione sito Internet</h3>
         <form action="servizioinascolto">
             <div>
-                <input type="text" name="nome" placeholder="Inserisci il tuo nome" minlength="3"> <!-- L'attributo minlength indica che è necessario inserire almeno 3 caratteri in questo campo, se inserisco meno di 3 caratteri al click del submit verrà riportato il messaggio di errore-->
+                <input type="text" name="nome" placeholder="Inserisci il tuo nome" minlength="3" required> <!-- L'attributo minlength indica che è necessario inserire almeno 3 caratteri in questo campo, se inserisco meno di 3 caratteri al click del submit verrà riportato il messaggio di errore-->
+                <!--L'attributo required indica l'obbligatorietà di valorizzazione del campo-->
             </div>
             <div>
-                <input type="text" name="cognome" placeholder="Inserisci il tuo cognome">
+                <input type="text" name="cognome" placeholder="Inserisci il tuo cognome" required>
             </div>
             <div>
-                <input type="email" name="email" placeholder="Inserisci la tua email">
+                <input type="email" name="email" placeholder="Inserisci la tua email" required>
             </div>
             <div>
                 <select name="CittaNascita">
