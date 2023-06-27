@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ESERCIZIO 2</title>
+    </head>
+    <body>
+        <h3>Registrazione sito Internet</h3>
+        <form action="servizioinascolto">
+            <div>
+                <input type="text" name="nome" placeholder="Inserisci il tuo nome" minlength="3"> <!-- L'attributo minlength indica che è necessario inserire almeno 3 caratteri in questo campo, se inserisco meno di 3 caratteri al click del submit verrà riportato il messaggio di errore-->
+            </div>
+            <div>
+                <input type="text" name="cognome" placeholder="Inserisci il tuo cognome">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Inserisci la tua email">
+            </div>
+            <div>
+                <select name="CittaNascita">
+                    <option value="0">Seleziona città di nascita</option>
+                    <option value="1">Palermo</option>
+                    <option value="2">Catania</option>
+                    <option value="3">Messina</option>
+                    <option value="4">Trapani</option>
+                </select>
+            </div>
+            <div> <!-- I radio BUTTON sono delle scelte che escludono delle altre, come riconosce HTML che più radio appartengono alla stessa categoria? Grazie al "NAME"-->
+                <input type="radio" name="ETA" value="MIN"> <!--In questo inserisco lo stesso NAME in entrambi i tipi di input radio per garantire il funzionamento di selezione esclusiva di 1 sola scelta-->
+                <label for="MIN">0-18</label> <!-- per i type radio è necessario inserire il tag label per far apparire accanto al pallino un'etichetta-->
+                <input type="radio" name="ETA" value="NOTMIN">
+                <label for="NOTMIN">18+</label>
+            </div>
+            <div>
+                <input type="checkbox" value="Condizioni">
+                <label for="Condizioni">Accetta i termini e condizioni</label> <!-- Per i type checkbox è necessaria la presenza di un tag label per associare un'etichetta al quadrato di check-->
+            </div>
+            <div>
+                <input type="submit" value="Invia">
+            </div>
+        </form>
+    </body>
+</html>
