@@ -1,0 +1,22 @@
+/* COMMENTO IN CSS */
+
+/* Il nome del selettore (id in HTML) deve essere preceduto dal "#" */
+
+
+#saluto{     
+    color: red;
+}
+
+
+
+#saluto2{
+    color: green;
+} 
+ 
+
+/* Se utilizzo come nome selettore il DIV (non preceduto da #) indico a css che tutti i div dovranno avere quelle caratteristiche */
+div{
+    color: blue;
+}
+
+/*Se utilizzo un attributo per un id speicifico e un attributo per un selettore generico (tipo div) chi vince tra i due? il selettore specifico con ID!!*/
