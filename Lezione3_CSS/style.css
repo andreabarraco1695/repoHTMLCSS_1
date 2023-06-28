@@ -3,6 +3,8 @@
 /* Il nome del selettore (id in HTML) deve essere preceduto dal "#" */
 
 
+
+
 #saluto{     
     color: red;
 }
@@ -20,3 +22,41 @@ div{
 }
 
 /*Se utilizzo un attributo per un id speicifico e un attributo per un selettore generico (tipo div) chi vince tra i due? il selettore specifico con ID!!*/
+/*
+p{
+    color: red;
+}
+*/
+
+#speciale{
+    color: red;
+}
+
+#speciale1{
+    color: red;
+}
+
+#speciale2{
+    color: red;
+}
+
+.speciale{
+    color: red;
+}
+
+/*
+Che differenza c'è tra ID e Class?
+
+ID -> definisce un elemento unico all'interno della pagina
+Class -> definisce una serie di elementi con caratteristiche comuni
+*/
+
+/* Alcuni attributi presenti per i nostri selettori
+#attributiGenerici{
+    background:
+    color:
+    width:
+    height:
+    border:
+}
+*/

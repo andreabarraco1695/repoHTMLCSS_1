@@ -1,0 +1,13 @@
+/*
+Selettore{
+    proprietà: valore;
+    proprietà: valore;
+}
+*/
+
+div{
+    font-size: 30px;
+    color: red;
+    background-color: yellow;
+    border: 1px solid black;
+}
