@@ -5,6 +5,23 @@
     font-size: 40px;
 }
 
+.centerimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50;
+}
+
+.titolosez{
+    color: orangered;
+    font-weight: bold;
+}
+
+.titoloart{
+    font-style: italic;
+    font-weight: bold;
+}
+
 header{
     background-color: gainsboro;
 }
