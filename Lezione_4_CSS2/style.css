@@ -1,0 +1,54 @@
+/*
+
+RGB -> RED GREEN BLUE -> rgb(X,X,X) -> X è un numero da 0 a 255
+RGBA -> RED GREEN BLUE ALPHA -> rgba (X,X,X,Y) -> Y è un decimale da 0.0 a 1.0, sta a indicare la trasparenza
+HEX -> Esadecimale - #ZZZZZZ -> Z è una cifra esadecimale (0 a F)
+
+Proprietà FONT
+
+font-family -> il tipo di font (arial ecc)
+font-size -> grandezza del font
+font-weight -> spessore della lettera
+line-height -> altezza della riga occupata dalla riga di testo
+text-align -> allineamento del testo
+text-decoration -> decorazioni aggiuntive al testo
+
+Quando si scrive un sito web bisogna tenere conto del font utilizzato:
+
+- Web Safe Fonts: Font installati sul pc dell'utente e sicuri da utilizzare
+- Google Fonts: Font non installati sul pc dell'utente ma ogni utente deve scaricarne la copia da google fonts
+
+
+
+UBUNTU FOND:
+
+font-family: 'Ubuntu', sans-serif;
+
+Tutti gli elementi per cui non viene indicato il background posseggono un colore di sfondo TRASPARENTE
+a eccezione del <body> che possiede di default il colore bianco
+
+background-size: cover -> Tutto l'oggetto viene ricoperto da quella immagine
+
+border -> imposta lo spessore, stile e il colore del bordo del blocco
+padding -> imposta la distanza tra il contenuto del blocco e il bordo del blocco stesso
+margin -> distanza tra il bordo di un elemento ed il bordo degli elementi adiacenti
+
+content-box-> vecchia modalità, default
+padding-box-> 
+border-box -> padding e border non vongono sommati a width ed heght ma sottratti, un blocco con width 200 px occuperà sempre e solo 200 px nella pagina
+
+display-> permette di specificare quale modalità va usata per visualizzare l'elemento
+
+- none
+- block
+- inline
+- inline-block
+*/
+
+.quadrato{
+    background-color: red;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 50px;
+}
+
