@@ -24,4 +24,10 @@
 
 header{
     background-color: gainsboro;
+    border-bottom: 3px solid orange;
+}
+
+main{
+    padding: 8px; /*Margine da sinistra*/
+    border-bottom: 3px solid orange;
 }
