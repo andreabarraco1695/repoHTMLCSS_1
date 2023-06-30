@@ -1,0 +1,23 @@
+/* 
+
+Gli inline non posseggono la proprietà width
+
+*/
+
+.subject{
+    background-color: red;
+    display: inline-block;
+    width: 20%;
+}
+
+.bodymail{
+    background-color: blue;
+    display: inline-block;
+    width: 78%;
+}
+
+.contenitore{
+    width: 1500px;
+    margin: auto;
+}
+

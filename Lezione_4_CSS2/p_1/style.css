@@ -38,11 +38,23 @@ padding-box->
 border-box -> padding e border non vongono sommati a width ed heght ma sottratti, un blocco con width 200 px occuperà sempre e solo 200 px nella pagina
 
 display-> permette di specificare quale modalità va usata per visualizzare l'elemento
+valori ammissibili:
+- none -> l'elemento non viene visualizzato
+- block -> rende possibile impostare le proprietà tipiche dei block
+- inline -> l'elemento viene affiancato ad altri elementi
+- inline-block -> combinazione tra BLOCK E INLINE -> <img> di default è un inline-block
 
-- none
-- block
-- inline
-- inline-block
+EREDITARIETA'
+Alcune proprietà CSS sono proprietà ereditabili, dunque se i tag padre ne posseggono li erediteranno automaticamente anche i tag annidati
+
+SPECIFICITA'
+Vi è una gerarchia di specificita' per gli attributi che determina chi ha più "potere":
+
+STYLE ATTRIBUTE
+ID
+CLASS, PSEUDO CLASS, ATTRIBUTE
+ELEMENTS
+
 */
 
 .quadrato{
@@ -50,5 +62,18 @@ display-> permette di specificare quale modalità va usata per visualizzare l'el
     border: 10px solid black;
     margin: 50px;
     padding: 50px;
+}
+
+.quadrato2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    display: inline-block; /*i quadrati si affiancano, lo spazio bianco non può essere rimosso se utilizziamo inline-block*/
+}
+
+*{ /* L'apertura con "*" indica che tutti elementi avranno queste proprietà*/
+    box-sizing: border-box; /*con questa proprietà faccio si che lo spazio del box rimanga invariato (no aggiunte)*/
+    margin: 0;
 }
 

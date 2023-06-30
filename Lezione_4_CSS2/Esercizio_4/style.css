@@ -1,0 +1,40 @@
+.prBody{
+    background-image: url(img/wallpaper.jpg);
+}
+
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#iconGMAIL{
+    display: inline-block;
+    width: 46px;
+}
+
+.footpage{
+    text-align: center;
+    color: white;
+}
+
+.GMail{
+    font-weight: bold;
+}
+
+#powered{
+    font-style: italic;
+}
+
+#gmailhead{
+    color: white;
+}
+
+.separator{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.whitetext{
+    color:white
+}
