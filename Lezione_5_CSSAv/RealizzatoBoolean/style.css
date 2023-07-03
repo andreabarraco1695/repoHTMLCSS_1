@@ -32,7 +32,7 @@ body {
 }
 
 
-.row{
+.email{
     color:black
 }
 
@@ -55,10 +55,6 @@ body {
 
 .email.unread{
     background-color: white;
-}
-
-.unread{
-
 }
 
 .row-left{
@@ -85,10 +81,17 @@ body {
     
 }
 
-.bodymail{
+.email.bodymail{
     /* */
     color:gray
 }
+
+.email .bodymail:after{
+    /* */
+    content:"...";
+}
+
+email
 
 footer{
     text-align: center;
