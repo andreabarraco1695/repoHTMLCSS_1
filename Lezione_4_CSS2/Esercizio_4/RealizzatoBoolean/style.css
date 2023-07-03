@@ -33,7 +33,7 @@ body {
 
 
 .row{
-    color: black;
+    color:black
 }
 
 .read{
@@ -56,11 +56,13 @@ body {
 
 .subject{
     /* */
+    color:black
     
 }
 
 .bodymail{
     /* */
+    color:gray
 }
 
 footer{
