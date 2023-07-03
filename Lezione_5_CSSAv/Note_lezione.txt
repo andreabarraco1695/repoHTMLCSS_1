@@ -1,0 +1,93 @@
+/*
+
+Star Selector
+
+*{
+    margin:0
+}
+
+selettore jolly, selezione qualsiasi tag presente nell'html
+
+-------------
+
+div E.starred
+
+div.starred{
+    text-decoration:overline;
+}
+
+Selezione OGNI tag <div> che ha anche la classe starred (<div class="starred">)
+
+-------------
+
+div O.starred
+
+div, .starred{
+    text-decoration: overline;
+}
+
+Selezione tutti i div e tutto ciò che ha classe "starred"
+
+-------------
+
+Descendant Selector
+
+div p{
+    text-decoration: overline;
+}
+
+Applica gli attributi a tutti i "<p>" che posseggono un "div" come "antenato"
+
+-------------
+
+child selector
+
+div > p{
+    color:red;
+}
+
+Applica gli attributi a tutti i "<p>" che posseggono un "div" come "padre"
+
+-------------
+
+PSEUDO SELETTORI
+
+:before :after
+
+.star:before{
+    content: "prova";
+}
+
+<div class = "star">//questa è una stella //</div> -> in base al valore viene inserito il content prima o dopo il valore del div
+
+-------------
+
+Attribute Selector
+
+input[type = "email"]{
+    color:red;
+}
+
+seleziona i tag <input> che hanno attributo type con valore "email"
+<input type ="email"> 
+
+-------------
+
+:hover, :visited
+
+li a:hover{
+    text-decoration: underline;
+    color; #FFFFFF;
+}
+
+hover chiama la regola quando si passa sopra l'elemento con il mouse
+visited chiama la regola quando si clicca l'elemento
+
+-------------
+
+:first-child, :last-child
+ul li:first-child{
+    border-left:none;
+}
+consente di selezione il primo o l'ultimo elemento di una serie
+*/

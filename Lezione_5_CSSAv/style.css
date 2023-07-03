@@ -1,0 +1,40 @@
+
+/*
+h2{
+    color: red;
+}
+
+h1{
+    color: red;
+}
+*/
+
+/*Sostituisce le 2 selezioni indicate sopra*/
+
+/*
+h1,h2{ 
+    color: red;
+}
+*/
+
+/*
+section > h2{
+    color: red;
+}
+
+div > h2{
+    color: red;
+}
+*/
+
+/*
+div h2{
+    color:red;
+}
+*/
+
+/*
+div h2:last-child{
+    color:red;
+}
+*/

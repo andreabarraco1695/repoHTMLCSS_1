@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ESERCIZIO 4 CORRETTO BOOLEAN</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container"> 
+            <header>
+                <!--Logo e Testo-->
+                <img class="logo" src="img/iconGmail.png" alt="">
+                <h1 class="logotext">GMAIL</h1>
+                <hr class="separatore">
+            </header>
+
+            <nav>
+                <!--Input e testo unread-->
+                <input type="text" placeholder="Search">
+                <button type="button">VAI</button>
+                <h2 class="textunread">You have <span id="unread-count">30</span> unread</h2>
+                <hr class="separatore">
+            </nav>
+
+            <main>
+                <!--Lista delle mail-->
+                <div class="email unread"> <!--A un elemento posso associare più classi indicandolo separate da spazio-->
+                    <div class="row-left">
+                        <input type="checkbox">
+                        <span class="star"></span>
+                        <span class="subject">oggetto della mail</span>
+                    </div>
+                    <div class="row-right">
+                        <span class="bodymail">corpo della mail</span>
+                    </div>
+                </div>
+
+                <div class="email read">
+                    <div class="row-left">
+                        <input type="checkbox">
+                        <span class="star"></span>
+                        <span class="subject">oggetto della mail</span>
+                    </div>
+                    <div class="row-right">
+                        <span class="bodymail">corpo della mail</span>
+                    </div>
+                </div>
+
+                <div class="email unread">
+                    <div class="row-left">
+                        <input type="checkbox">
+                        <span class="star"></span>
+                        <span class="subject">oggetto della mail</span>
+                    </div>
+                    <div class="row-right">
+                        <span class="bodymail">corpo della mail</span>
+                    </div>
+                </div>
+
+                <div class="email unread">
+                    <div class="row-left">
+                        <input type="checkbox">
+                        <span class="star"></span>
+                        <span class="subject">oggetto della mail</span>
+                    </div>
+                    <div class="row-right">
+                        <span class="bodymail">corpo della mail</span>
+                    </div>
+                </div>
+
+                <div class="email unread">
+                    <div class="row-left">
+                        <input type="checkbox">
+                        <span class="star"></span>
+                        <span class="subject">oggetto della mail</span>
+                    </div>
+                    <div class="row-right">
+                        <span class="bodymail">corpo della mail</span>
+                    </div>
+                </div>
+
+                <div class="email unread">
+                    <div class="row-left">
+                        <input type="checkbox">
+                        <span class="star"></span>
+                        <span class="subject">oggetto della mail</span>
+                    </div>
+                    <div class="row-right">
+                        <span class="bodymail">corpo della mail</span>
+                    </div>
+                </div>
+                <hr class="separatore">
+            </main>
+
+            <footer>
+                <!--Credits-->
+                <span id="name-footer">Gmail</span> powered by Barrac8
+            </footer>
+        </div>
+
+    </body>
+</html>

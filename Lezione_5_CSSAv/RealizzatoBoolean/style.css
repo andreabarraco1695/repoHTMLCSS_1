@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+    color: white
+}
+
+.logo{
+    width: 80px;
+}
+
+.logotext{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.separatore{
+    color: white;
+}
+
+.textunread{
+    font-size: 18px;
+}
+
+#unread-count{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 3px; /* Distanza tra bordo e testo */
+}
+
+
+.row{
+    color:black
+}
+
+/*old version
+.row.read{
+    background-color: lightgrey;
+}
+*/
+
+/*new version, più specifica con i selettori avanzati*/
+.email.read{
+    background-color: lightgrey;
+}
+
+/*old version
+.row.unread{
+    background-color: lightgrey;
+}
+*/
+
+.email.unread{
+    background-color: white;
+}
+
+.unread{
+
+}
+
+.row-left{
+    display: inline-block; /*Lo trasformo in un elemento inline-block*/
+    width: 30%;
+}
+
+.row-right{
+    display: inline-block;
+    width: 68%;
+}
+
+.star{
+    color:orange
+}
+
+.star:after{
+    content: "\2605"
+}
+
+.subject{
+    /* */
+    color:black
+    
+}
+
+.bodymail{
+    /* */
+    color:gray
+}
+
+footer{
+    text-align: center;
+}
+
+#name-footer{
+    font-size: 22px ;
+}
