@@ -1,0 +1,72 @@
+.containerbg{
+    width: 1000px;
+    height: 1000px;
+}
+
+.containerbg.green{
+    background-color: green;
+}
+
+.bigsquare1{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.bigsquare1.blue{
+    background-color: blue;
+}
+
+.bigsquare2{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.bigsquare2.blue{
+    background-color: blue;
+}
+
+.square1{
+    width: 50px;
+    height: 50px;
+}
+
+.square1.red{
+    background-color: red;
+}
+
+.square2{
+    width: 50px;
+    height: 50px;
+}
+
+.square2.red{
+    background-color: red;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.square3{
+    width: 50px;
+    height: 50px;
+}
+
+.square3.red{
+    background-color: red;
+}
+
+.square4{
+    width: 50px;
+    height: 50px;
+}
+
+.square4.red{
+    background-color: red;
+    position: relative;
+    left:25px
+}
+

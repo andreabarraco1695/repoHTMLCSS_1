@@ -1,0 +1,36 @@
+Posizionamento in CSS
+
+"position" imposta la modalità con cui un elemento deve essere posizionato nella pagina
+
+position: 
+    static -> default
+    relative
+    absolute
+    fixed
+
+E' una proprietà che non viene ereditata, può essere assegnata a quelunque elemento
+
+Se indichiamo un valore diverso da static in genere è necessario impostare la posizione dell'elemento con:
+    top
+    right
+    bottom
+    left
+
+----------------------
+
+position: relative
+
+L'elemento viene posizionato relativamente alla posizione naturale che l'elemento avrebbe occupato del normale flusso del documento.
+
+----------------------
+
+position: absolute
+
+Il posizionamento avviene sempre rispetto al "contenitore" dell'elemento.
+Il contenitore non è un qualsiasi contenitore, ma il primo elemento ancestor con posizionamento diverso da "static"
+Un elemento con position absolute è di default reso "block"
+
+Se non esiste un ancestor, il posizionamento absolute avviene rispetto all'elemento html
+
+Nel caso di position absolute l'elemento viene rimosso dal flusso del documento, dunque verrebbe rimpiazzato da un elemento in posizione di default se presente 
+
