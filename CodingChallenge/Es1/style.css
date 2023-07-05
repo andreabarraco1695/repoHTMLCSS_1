@@ -1,0 +1,98 @@
+body,html{
+    height: 100%;
+}
+
+.bg{
+    /*Immagine utilizzata*/
+    background-image: url('img/background.jpg');
+        
+    /*Imposta la dimensione al massimo*/
+    height: 100%;
+    
+    /*Con la proprietà COVER l'immagine ricoprirà esattamente tutta la pagina e non verrà intaccata da eventuali zoom*/
+    background-size: cover; 
+
+    text-align: center; 
+
+}
+
+.contenitore{
+    margin-top: 76px;
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left:20%;
+    margin-right: 20%;
+    padding-left:50px;
+    padding-right:50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 2%;
+}
+
+.sfondocontenitore{
+    width: 100%;
+    height: 100%;
+}
+
+#logoLIM{
+    width: 18%;
+}
+
+.sezLogo > h1 {
+    color: #00dd00;
+    margin: 0;
+}
+
+.sfondoTastiFunzione{
+    background-color: #00dd00;
+    height: 40px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.sfondoMain{
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+
+.tastiFunzione{
+    padding-top:10px;
+}
+
+.sezioniMonopattini{
+    margin-top: 20px;
+    text-align: left;
+}
+
+.nameMonopattino{
+    display: inline-block;
+}
+
+.sfondoMain > h1, h2, h3, h4, h5{
+    margin: 0;
+}
+
+/*definisco l'altezza di ogni border di carica in maniera tale che la ereditino tutti i div figli*/
+
+.border-carica > div{
+    height: 30px;
+    border-radius:5px;
+}
+
+#mono1{
+    width: 50%;
+    background-color: yellow;
+}
+
+#mono2{
+    width: 75%;
+    background-color: green;
+}
+
+#mono3{
+    width: 15%;
+    background-color: red;
+}

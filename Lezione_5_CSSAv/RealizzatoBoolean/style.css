@@ -25,7 +25,15 @@ body {
     font-size: 18px;
 }
 
+/*
 #unread-count{
+    background-color: orange;
+    border-radius: 50%;
+    padding: 3px; /* Distanza tra bordo e testo
+}
+ */
+
+h2 > span{
     background-color: orange;
     border-radius: 50%;
     padding: 3px; /* Distanza tra bordo e testo */
@@ -57,13 +65,16 @@ body {
     background-color: white;
 }
 
+.row-left, .row-right{
+    display: inline-block;
+}
+
 .row-left{
-    display: inline-block; /*Lo trasformo in un elemento inline-block*/
+    /*display: inline-block; Lo trasformo in un elemento inline-block*/
     width: 30%;
 }
 
 .row-right{
-    display: inline-block;
     width: 68%;
 }
 
@@ -91,12 +102,16 @@ body {
     content:"...";
 }
 
-email
-
 footer{
     text-align: center;
 }
 
+/*
 #name-footer{
+    font-size: 22px ;
+}
+*/
+
+footer > span{
     font-size: 22px ;
 }

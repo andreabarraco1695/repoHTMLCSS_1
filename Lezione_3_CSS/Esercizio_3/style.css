@@ -12,15 +12,30 @@
     width: 50;
 }
 
+/*
 .titolosez{
     color: orangered;
     font-weight: bold;
 }
+*/
 
+section > h2{
+    color: orangered;
+    font-weight: bold;
+}
+
+/*
 .titoloart{
     font-style: italic;
     font-weight: bold;
 }
+*/
+
+section > h3{
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 header{
     background-color: gainsboro;
