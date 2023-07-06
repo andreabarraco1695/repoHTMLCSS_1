@@ -1,0 +1,62 @@
+#container{
+    border: 1px black solid;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#container.color{
+    background-color: whitesmoke;
+}
+
+.item{
+    position: relative;
+    display: inline-block;
+    width: 180px;
+    height: 220px;
+}
+
+.item.color{
+    background-color: rgb(238,238,238);
+}
+
+.sconto{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+}
+
+.img1{
+    background-image: url(pd1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.heart{
+    display: none;
+    width: 100%; /*Forziamo, la larghezza è 100% del padre*/
+    position: absolute;
+    bottom: 0%;
+    color: red;
+    font-size: 25px;
+}
+
+.img2{
+    background-image: url(pd2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3{
+    background-image: url(pd3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/*Creo un selettore per il comportamnento di Hover (far comparire il cuore quando si passa sopra l'immagine)*/
+/*con item:hover indico che l'azione si verificherà quando passerò sopra l'oggetto "item" e con .hearts seleziono l'elemento che subirà la modifica*/
+.item:hover .heart{
+    display: block;
+}
