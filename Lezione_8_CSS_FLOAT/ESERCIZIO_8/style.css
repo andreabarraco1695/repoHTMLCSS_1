@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding: 50px;
+    /*background-color: lightgray;*/
+    /*border: 1px black solid;*/
+}
+
+/*Da utilizzare solo quando si vuole centrare il testo*/
+.hv-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headeradd{
+    height: 50px;
+}
+
+.addalbum a{
+    font-size: 25px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.testata{
+    height: 50px;
+    position: relative;
+}
+
+.albums{
+    font-size: 27px;
+    font-weight: bold;
+}
+.seeall a{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 13px;
+    color: blueviolet;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.divisore{
+    border-top: 1px solid lightgray;
+}
+
+.mainp{
+    margin-top: 30px;
+}
+
+.row:after{
+    clear: both;
+    content:'';
+    display: table;
+}
+.item{
+    width: calc(100% / 6 - 12); 
+    height: 200px;
+    float: left;
+    margin: 6px;
+}
+
+.item a{
+    text-decoration: none;
+}
+
+.imgitem{
+    width: 150px;
+    height: 100px;
+    border: 1px black solid;
+}
+
+#img1{
+    background-image: url(img/wallpaper.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.descr{
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.number{
+    margin-top: 6px;
+    font-size: 12px;
+    color: grey;
+}
