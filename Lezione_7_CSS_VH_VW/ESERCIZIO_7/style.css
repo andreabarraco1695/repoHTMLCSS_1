@@ -1,11 +1,40 @@
-.background{
-    height: 100vh;
-    background-color: grey;
+/*regole di default per i nostri progetti per decidere in autonomia se vogliamo margin, padding o box sizing*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.bckcity1{
+.city{
     position: relative;
+    width: 100%;
     height: 100vh;
     background-color: red;
-    border: 1px;
+    border: 1px black solid;
+    color:white;
+    background-size: cover;
+    background-position: center;
+}
+
+.cityname{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0,0,0,0.6);
+    font-size: 15px;
+    padding: 5px;
+}
+
+#palermo{
+    background-image: url(img/palermo.jpg);
+}
+
+#catania{
+    background-image: url(img/catania.jpg);
+}
+
+#siracusa{
+    background-image: url(img/siracusa.jpg);
 }
